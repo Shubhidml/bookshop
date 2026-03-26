@@ -1,6 +1,8 @@
 {
+ "_comments": "[{\"comment\": \"Action Failed<br><br>No changes made because old and new name are the same.\", \"by\": \"Administrator\", \"name\": \"43odipb72v\"}]",
  "actions": [],
  "allow_rename": 1,
+ "autoname": "Book - title-.#####",
  "creation": "2026-03-16 12:23:38.900950",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -39,8 +41,13 @@
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2026-03-16 12:54:08.432497",
+ "links": [
+  {
+   "link_doctype": "Order",
+   "link_fieldname": "book"
+  }
+ ],
+ "modified": "2026-03-23 10:18:16.983684",
  "modified_by": "Administrator",
  "module": "Bookshop",
  "name": "Book",

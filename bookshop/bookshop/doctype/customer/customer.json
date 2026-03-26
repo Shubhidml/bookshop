@@ -1,7 +1,6 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "Customer-{#####}",
  "creation": "2026-03-16 12:55:08.139021",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -23,12 +22,16 @@
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2026-03-16 12:56:17.352147",
+ "links": [
+  {
+   "link_doctype": "Order",
+   "link_fieldname": "customer"
+  }
+ ],
+ "modified": "2026-03-23 10:16:06.358200",
  "modified_by": "Administrator",
  "module": "Bookshop",
  "name": "Customer",
- "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
